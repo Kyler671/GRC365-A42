@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Guam</title>
+<!-- Embedded or Global Style -->
+<link href="https://fonts.googleapis.com/css2?family=Asimovian&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">rel="stylesheet">
+<style>
+    * {margin: 0; padding: 0;}
+	@font-face {
+		font-family: Georgia;
+        src: url("Georgia.ttf");
+	} body {
+		background: whitesmoke;
+	} #page {
+		width: 928px;
+		height: 1450px;	
+		background: white;
+		border: 1px solid darkgray;
+		margin: 0 auto;
+	} h1 {
+		font: 48pt/1.4em 'Asimovian';
+		text-align: center;
+	} h2 { 
+		font: 20pt/1.4em 'Dancing Script';
+		text-align: center;
+	} p {
+		font:14pt/1.4em Georgia;
+		width: 768px;
+		margin: 18px auto;
+	} img {
+		width: 360px;
+		float: left;
+        margin: 6px 24px 24px 0;
+        border: 1px solid dimgray;
+        box-shadow: 2px 3px 6px darkgray;
+	 } .float-left {
+        width: 300px;
+        float: left;
+        margin: 0 24px 0 0;
+        border: 1px solid darkgray;
+        box-shadow: 2px 3px 6px darkgray;
+    } ul {
+        width: 100%;
+        margin-top: -4px;
+    } li {
+        font: 14pt/2.0em Georgia;
+        list-style: none;
+        float: left;
+        width: 33.33%;
+        height: 40px;
+        text-align: center;
+        background: rgba(169,225,245,0.80);
+    } a li {
+        color: black;
+    } a {
+        text-decoration: none;
+    } a li:hover {
+        background: rgba(169,225,245,0.50);
+	} #banner {
+		margin-top: 0;
+		width: 100%;
+		float: none;
+		border: none;
+		box-shadow: none;
+	} #arrow {
+        width: 60px;
+        height: 60px;
+        margin: 0px 0 0 24px;
+        display: block;
+		float: left;
+		border: none;
+		box-shadow: none;
+	} video {
+		margin: 27px auto;
+		display: block;
+	}
+</style>
+</head>
+
+<body>
+	<div id="page">
+<img id="banner" src="green.jpg" />
+		<ul>
+			<!-- Local or Relative Link -->
+			<li>Home</li>
+			<!-- Absolute or Global Link -->
+			<a href="https://www.guamvisitorsbureau.com/">
+            <li>Guam Visitors Bureau</li></a>
+			<!-- Local or Relative Link -->
+			<li><a href="portfolio.html">Portfolio</a></li>
+		</ul>
+		<h1>Guam</h1>
+		<h2>Where America's Day Begins</h2>
+
+<p><img src="water.jpg" />Guam is a small U.S. territory located in the western Pacific Ocean. It’s the largest and southernmost island in the Mariana Islands and holds strategic military importance for the United States. With a tropical climate, lush landscapes, and a mix of American and Chamorro cultures, Guam offers a unique blend of modern and traditional island life. Its capital is Hagåtña, and the island is home to about 170,000 people.</p>
+<p> Tourism is one of Guam’s main industries, attracting visitors with its beautiful beaches, coral reefs, and World War II historical sites. The local culture is deeply rooted in Chamorro traditions, which are celebrated through festivals, music, and cuisine. Despite its remote location, Guam plays a key role in Pacific geopolitics and serves as a vital hub for U.S. military operations in the region.</p>
+	<video width="480" height="300" controls poster="thumbnail.jpg">
+        <source src="guam_intro.mp4">
+    </video>
+	<!-- Anchor Link -->
+	<a href="#banner">
+	<img style="margin-top: 72px;" id="arrow" src="arrow.png" />
+	</a>
+	</div>
+</body>
+</html>
